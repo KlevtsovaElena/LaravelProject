@@ -1,5 +1,12 @@
-<h1>laravel</h1>
+<body>
 
-<form action="index.php">
-    <button type="submit">послать</button>
-</form>
+</body>
+
+<script>
+    let form = document.createElement('form');
+    form.action = 'http://localhost:8000/index.php';
+    method = 'GET';
+    document.body.append(form);
+    form.submit();
+
+</script>

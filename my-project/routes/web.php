@@ -1,5 +1,6 @@
 <?php
-
+//чтобы получить доступ из нашей странички
+header('Access-Control-Allow-Origin: *');
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('news');
 });
 
 Route::get('/news', function () {

@@ -1,3 +1,8 @@
+<?php
+//чтобы получить доступ из нашей странички
+header('Access-Control-Allow-Origin: *');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
